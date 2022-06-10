@@ -51,4 +51,7 @@ Node.js v16.13.2 or later
 6. The ``bytes32`` type **hash** returned by `toEthSignedMessageHash()` method is further passed into `recover()` method present in ECDSA library along with the signature.This `recover()` method returns the signer address.
 
 7. we now compare the signer address returned by `recover()` method with the owner of the contract using `owner()` method.If both the addresses are same then `verifyOwnerSignature()` will return a `true` value thus, the siganture verified.Else, if the `verifyOwnerSignature()` return a `false` value then the signature is not verified,showing an error **Invalid Signature** in the pop-up and also in the console.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8b60797bef6b8e710a0ae69da4ef54813eac0ee2
