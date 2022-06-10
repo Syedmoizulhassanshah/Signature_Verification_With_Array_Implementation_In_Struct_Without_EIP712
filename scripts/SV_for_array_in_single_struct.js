@@ -3,15 +3,6 @@ var web3 = new Web3();
 require('dotenv').config();
 
 
-// let message = "Hello"
-// //let prefix = "\x19Ethereum Signed Message:\n" + message.length
-// //let msgHash = web3.utils.keccak256(prefix+message)
-// let msgHash = web3.utils.keccak256(message)
-// console.log(msgHash);
-// let privateKey = ""
-// let signature = web3.eth.accounts.sign(msgHash, privateKey)
-// console.log("The require signature is :",signature)
-
 const encode_value = web3.eth.abi.encodeParameter(
 {
 
