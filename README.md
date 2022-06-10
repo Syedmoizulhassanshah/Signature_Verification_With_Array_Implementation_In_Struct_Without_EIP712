@@ -11,7 +11,7 @@
 5. Copy the contract present in the contracts folder and deploy it on remix using your wallet address whose privatekey you used for creating     
    signature off-chain. 
 7. Then call the `encode()` function by passing the mintData **tuple**. 
-8. Then call the `hashing()` function by passing the encoded mintData **tuple** that was returned from the`encode()` function.
+8. After this call the `hashing()` function by passing the encoded mintData **tuple** that was returned from the`encode()` function.
 9. Lastly pass the **hash** returned after calling the `hashing()` function along with the **signature** (value) you created off-chain. 
 10. **Result:** Signature is verified.
 
